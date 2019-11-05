@@ -1,0 +1,87 @@
+body {
+    font-family: monospace;
+    font-size: 1.2em;
+    background: #ffd3ae;
+    color: yellow;
+    text-align: center;
+}
+#title {
+    font-size: 3em;
+    color:yellow;
+    text-shadow: 2px 2px #FF0000;
+    -webkit-animation-name: textflash;
+    -webkit-animation-duration: 0.25s;
+    animation-name: textflash;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, end);
+}
+
+@-webkit-keyframes textflash {
+    0% {color: white;}
+    50% {color: cyan;}
+}
+@keyframes textflash {
+    0% {color: white;}
+    50% {color: cyan;}
+}
+
+#header {
+    margin-bottom: 40px;
+}
+
+#albumcover {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    #albumcover {
+        width: 900px;
+    }
+}
+
+#dangif {
+    width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    #danmars {
+        width: 1100px;
+    }
+}
+
+#marspics {
+    width: 30%;
+}
+
+#danpics {
+    width: 50%;
+}
+
+#contact {
+    color:yellow;
+}
+
+#Subtitle {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+#link {
+    color:dimgrey;
+}
+
+#smalltext {
+    color:dimgrey;
+    font-size: 0.2em;
+}
+
+#greytext {
+    color:silver;
+}
+
+#greytextleft {
+    color:silver;
+    text-align:left;
+    padding-left:20%;
+}
